@@ -31,20 +31,99 @@ body{
 .location{
     width: 30%;
     height: 100px;
-    background-color: pink;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .deliver{
     font-weight: 700;
-    margin-left: 5px;
+    margin-right: 10px;
 }
 .current{
-    
+    margin-right: 3px;
+    margin-left: 6px;
 }
 .busstand{
-
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
 }
 .login{
     width: 30%;
     height: 100px;
     background-color: red;
+}
+.search{
+    width: 20%;
+    height: 80px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchspan{
+    margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+}
+.b1{
+    width: 23%;
+    height: 35px;
+    background: white;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    border-radius: 12px;
+    box-shadow: rgba(225, 156, 1) 0px 5px 8px;
+}
+.loginabutton{
+    color: rgb(225, 156, 1);
+    font-weight: bolder;
+}
+/* nav bar complete */
+
+
+/* HeroSection Start */
+
+
+.herosection{
+    width: 100%;
+    height: 620px;
+    background-color: rgb(250, 195, 64);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.starving{
+    width: 60%;
+    height: 550px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.areyoustarving{
+    font-size: 40px;
+    font-weight: 800;
+    color: white ;
+    margin-right: 340px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fewclick{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 230px;
+}
+.delivery{
+    width: 65%;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+}
+.noddle{
+    width: 40%;
+    height: 550px;
+    background: #000;
 }
