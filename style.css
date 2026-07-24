@@ -1,16 +1,18 @@
-body{
+body {
     margin: 0%;
     padding: 0%;
 }
-.nav1{
+
+.nav1 {
     width: 100%;
     height: 100px;
-    background-color: yellow;
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.logo{
+
+.logo {
     width: 20%;
     height: 100px;
     /* background-color: red; */
@@ -18,17 +20,20 @@ body{
     justify-content: center;
     align-items: center;
 }
-.food{
+
+.food {
     font-size: 1.8em;
     color: rgb(241, 114, 40);
     font-family: "Source Code Pro", serif;
 }
-.wagon{
+
+.wagon {
     font-size: 1.8em;
     color: rgb(255, 179, 14);
     font-family: "Source Code Pro", serif;
 }
-.location{
+
+.location {
     width: 30%;
     height: 100px;
     /* background-color: pink; */
@@ -36,24 +41,29 @@ body{
     justify-content: center;
     align-items: center;
 }
-.deliver{
+
+.deliver {
     font-weight: 700;
     margin-right: 10px;
 }
-.current{
+
+.current {
     margin-right: 3px;
     margin-left: 6px;
 }
-.busstand{
+
+.busstand {
     font-weight: 700;
     font-family: "Roboto", sans-serif;
 }
-.login{
+
+.login {
     width: 30%;
     height: 100px;
     background-color: red;
 }
-.search{
+
+.search {
     width: 20%;
     height: 80px;
     /* background-color: blue; */
@@ -61,12 +71,14 @@ body{
     justify-content: center;
     align-items: center;
 }
-.searchspan{
+
+.searchspan {
     margin-left: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 800;
 }
-.b1{
+
+.b1 {
     width: 23%;
     height: 35px;
     background: white;
@@ -78,52 +90,151 @@ body{
     border-radius: 12px;
     box-shadow: rgba(225, 156, 1) 0px 5px 8px;
 }
-.loginabutton{
+
+.loginabutton {
     color: rgb(225, 156, 1);
     font-weight: bolder;
 }
+
 /* nav bar complete */
 
 
 /* HeroSection Start */
 
 
-.herosection{
+.herosection {
     width: 100%;
     height: 620px;
-    background-color: rgb(250, 195, 64);
+    background-color: rgb(252, 204, 31);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.starving{
-    width: 60%;
+
+.starving {
+    width: 55%;
     height: 550px;
-    background-color: pink;
+    background-color: olivedrab;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
-.areyoustarving{
-    font-size: 40px;
+
+.s8 {
+    font-size: 3.2em;
+    color: #fff;
     font-weight: 800;
-    color: white ;
-    margin-right: 340px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 220px;
 }
-.fewclick{
+
+.s9 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-right: 230px;
+    margin-right: 170px;
 }
-.delivery{
+
+.pickup {
     width: 65%;
     height: 200px;
-    background-color: black;
+    background-color: #fff;
     border-radius: 10px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
-.noddle{
+
+.rider {
+    width: 100%;
+    height: 60px;
+    /* background-color: rebeccapurple; */
+    border-bottom: solid grey 2px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.db {
+    width: 15%;
+    height: 30px;
+    background-color: rgb(246, 215, 197);
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(241, 114, 40);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.pb {
+    width: 15%;
+    height: 30px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 700;
+    color: gray;
+    margin-left: 10px;
+    border: none;
+}
+
+.findfood {
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.findfood2 {
+    width: 73%;
+    height: 55px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.findfood3 {
+    width: 20%;
+    height: 58px;
+    background-color: rgb(249, 98, 34);
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.enteryouraddress {
+    margin-left: 10px;
+}
+
+.loc {
+    margin-left: 12px;
+    color: rgb(249, 98, 34);
+}
+
+.findfoodbutton {
+    font-size: 15px;
+    color: white;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+.egg {
     width: 40%;
     height: 550px;
-    background: #000;
+    background-color: olivedrab;
 }
